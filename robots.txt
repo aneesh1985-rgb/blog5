@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://aneesh1985-rgb.github.io/blog5/blog5/sitemap.xml
+Sitemap: https://aneesh1985-rgb.github.io/blog5/sitemap.xml
