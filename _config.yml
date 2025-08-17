@@ -1,16 +1,17 @@
 # Site settings
 title: "My Blog"
-description: "Welcome to my GitHub Pages blog 🎉"
-url: "https://aneesh1985-rgb.github.io"   # your GitHub Pages domain
-baseurl: "/blog5"                         # repo name
+description: "Personal blog powered by al-folio"
+baseurl: "/blog5"   # The subpath of your site (e.g. /blog5)
+url: "https://aneesh1985-rgb.github.io"  # Your GitHub Pages URL
 
 # Author settings
 author:
-  name: "Aneesh"
+  name: "Aneesh V N"
   email: "your-email@example.com"
 
-# Theme
-remote_theme: alshedivat/al-folio@master
+# Build settings
+markdown: kramdown
+theme: al-folio
 
 # Plugins
 plugins:
@@ -19,23 +20,3 @@ plugins:
   - jekyll-sitemap
   - jekyll-include-cache
 
-# Markdown & code highlighting
-markdown: kramdown
-highlighter: rouge
-
-# Collections (optional, for publications/projects)
-collections:
-  publications:
-    output: true
-  projects:
-    output: true
-
-# Exclude from build
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - .github
-  - README.md
-  - LICENSE
